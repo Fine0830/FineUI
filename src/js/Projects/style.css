@@ -1,0 +1,65 @@
+.projects{
+      transition: all 1s linear;
+      div.goBack {
+        width: 100%;
+        height: 120px;
+        line-height: 120px;
+        background-color: #339966;
+        margin-top: 15px;
+        text-align: center;
+        cursor: pointer;
+      };
+      a{
+        color: #fff;
+      }
+      color: #fff;
+}
+ @for $i from 1 to 3 {
+    .projects>div:nth-child($i) {
+      margin-right: 15px;
+      float: left;
+      width: 270px;
+    }
+}
+.projects>div:nth-child(1) {
+  width: 270px;
+  div.fine_work {
+  height: 325px;
+  background: url('../../images/templatemo_testimonial2.jpg') no-repeat 0px 0px;
+  background-size: cover;
+};
+
+}
+.projects>div:nth-child(2){
+      font-size: 16px;
+      width: 380px;
+      background-color: #ccc;
+      color: #000;
+      padding: 25px;
+      height: 410px;
+      font-family: Tahoma, Arial;
+      h2{
+        font-size: 24px;
+          color: #333;
+          margin-bottom: 20px;
+          font-weight: 400;
+      };
+      p{
+        margin-bottom: 15px;
+        span{
+          display: block;
+          font-size: 18px;
+        }
+        a{
+          color: #333;
+          display: block;
+          margin-top: 10px;
+        }
+      };
+}
+.projects>div:nth-child(3){
+      width: 400px;
+      height: 460px;
+      background: url('../../images/templatemo_about.jpg');
+      background-size: cover;
+}

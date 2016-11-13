@@ -1,0 +1,50 @@
+
+.life{
+	a{
+		color: #fff;
+	};
+	  
+	  div.menuList{
+	  	float: left;
+	    width: 300px;		
+		>div:nth-child(1){
+			margin: 0 15px 15px 0;
+			color: #fff;
+			background: #999933;
+			font-family: Tahoma, Arial;
+			height: 350px;
+			h2{
+				font-size: 24px;
+		    	padding:20px 0 0 0;
+		    	font-weight: 400;
+		    	text-align: center;
+			}
+			p{
+				padding: 15px;
+				font-size: 16px;
+			}
+		};
+		a{
+		    height: 135px;
+		    color: #fff;
+		    line-height: 135px;
+		    background: #666;
+		    display: block;
+		    text-align: center;
+		    margin: 0 15px 0 0;
+		};
+	  };
+	ul{
+		float: left;
+	}
+}
+.life ul li { float: left; display: inline; height: 500px; color: #fff; cursor: pointer; position: relative;}
+.life ul li.li1 { background: url('../../images/sister.jpg') no-repeat 0px 0;background-size: cover;}
+.life ul li.li2 { background: url('../../images/tea.jpg') no-repeat -50px 0;background-size: cover;}
+.life ul li.li3 { background: url('../../images/flowers.jpg') no-repeat 0 0;background-size: cover;}
+.life ul li.li4 { background: url('../../images/friends.jpg') no-repeat -50px 0;background-size: cover;}
+.life ul li.li5 { background: url('../../images/friendsBack.jpg') no-repeat -100px 0;background-size: cover;}
+.life ul li.li6 { background: url('../../images/back.jpg') no-repeat 0 0;background-size: cover;}
+.life .fold { width: 80px; height: 100%; text-align: center; position: absolute; top: 0px; left: 0px;}
+.life .fold .txt { font-size: 24px; display: block; width: 25px; font-weight: normal; margin: 0px 38px; line-height: 25px;}
+.life .unfold { width: 400px; height: 100%; display: none; position: absolute; top: 0px; left: 0px;}

@@ -1,0 +1,96 @@
+
+.homePage{
+    transition: all 1s linear;
+    a{
+    	color: #fff;
+    }
+    .rowOne{
+   	  div:nth-child(1){
+   	  	width:100%;
+   	  	height: 150px;
+   	  	background-color: #999933;
+   	  	margin-bottom: 15px;
+   	  	text-align: center;
+   	  	line-height: 150px;
+   	  	color: #fff;
+   	  	cursor: pointer;
+   	  }
+   	  div:nth-child(2){
+   	  	width:100%;
+   	  	height: 300px;
+   	  	background: url('../../images/home1.jpg') no-repeat 0 0;
+   	  	background-size: cover;
+   	  }
+    }
+    .rowTwo{
+    	div:nth-child(1){
+	   	  	width:100%;
+	   	  	height: 300px;
+	   	  	background: url('../../images/home2.jpg') no-repeat 0 0;
+	   	  	background-size: cover;
+	   	  	margin-bottom: 15px;
+   	    }
+   	    div:nth-child(2){
+	   	  	width:100%;
+	   	  	height: 150px;
+	   	  	background-color: #993333;
+	   	  	text-align: center;
+	   	  	line-height: 150px;
+	   	  	color: #fff;
+	   	  	cursor: pointer;
+   	    }
+    }
+    .rowThree{
+   	  div:nth-child(1){
+   	  	width:100%;
+   	  	height: 150px;
+   	  	background-color: #339966;
+   	  	margin-bottom: 15px;
+   	  	text-align: center;
+   	  	line-height: 150px;
+   	  	color: #fff;
+   	  	cursor: pointer;
+   	  }
+   	  div:nth-child(2){
+   	  	width:100%;
+   	  	height: 300px;
+   	  	background: url('../../images/home3.jpg') no-repeat 0 0;
+   	  	background-size: cover;
+   	  }
+    }
+    .rowFour{
+    	div:nth-child(1){
+	   	  	width:100%;
+	   	  	height: 150px;
+	   	  	background: url('../../images/home4.jpg') no-repeat 0 0;
+	   	  	background-size: cover;
+	   	  	margin-bottom: 15px;
+   	    }
+   	    div:nth-child(2){
+	   	  	width:100%;
+	   	  	height: 140px;
+	   	  	background-color: #CC9933;
+	   	  	text-align: center;
+	   	  	line-height: 140px;
+	   	  	color: #fff;
+	   	  	margin-bottom: 15px;
+	   	  	cursor: pointer;
+   	    }
+   	    div:nth-child(3){
+	   	  	width:100%;
+	   	  	height: 140px;
+	   	  	background-color: #006699;
+	   	  	text-align: center;
+	   	  	line-height: 140px;
+	   	  	color: #fff;
+	   	  	cursor: pointer;
+   	    }
+    }
+}
+ @for $i from 1 to 4 {
+    .homePage>div:nth-child($i) {
+        width: 270px;
+        margin-right: 15px;
+        float: left;
+    }
+}

@@ -1,0 +1,24 @@
+.headerContainer{
+	width: 82%;
+    margin: 5% 0 30px 15%;
+    h1{
+    	font-size: 3.3em;
+	    color: #fff;
+	    padding: 0px 0px;
+	    cursor: pointer;
+	    text-shadow: 4px 2px 2px rgba(33, 33, 33, 1);
+	    width: 100px;
+        height: 60px;
+        font-family: Tahoma, Arial;
+        font-weight: 400;
+    };
+    h1:hover{
+    	color: #ccc;
+    }
+    div{
+    padding: 0px 0px 0px 0px;
+    font-size: 1em;
+    color: #b5b5b5;
+    /*margin: 10px 0px 30px 25px;*/
+    };
+} 
